@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6d96b">
+<title>Feliz cumpleaños, cielo 💛</title><link rel="stylesheet" href="style.css">
+</head><body>
+<div class="ambient ambient-one">♡</div><div class="ambient ambient-two">✿</div><div class="ambient ambient-three">✧</div><div class="ambient ambient-four">🌼</div>
+<main>
+<section id="welcome" class="screen welcome-screen"><div class="welcome-card">
+<div class="eyebrow">un regalito hecho con amor</div><h1>¡Feliz cumpleaños,<br><span>cielo!</span> <span class="title-heart">💛</span></h1>
+<img class="welcome-detail" src="assets/welcome-detail.png" alt="Pompompurin y sus amigos con una tortita de cumpleaños">
+<p class="welcome-message"><strong>FELIZ CUMPLEAÑOS, MI AMOOORRR. 💗</strong><br><br>Espero que hoy sea un día muy bello para ti, porque te mereces lo más bello del mundo. Te preparé una sorpresita con mucho amor, mi niña. Hay secretos, mensajitos especiales y un regalito esperándote al final. Espero que te guste mi corazón, hice todo esto pensando en ti. :3<br><br><span class="closing-line">Te amo muchísimoooo, mi cielito. 💛</span></p>
+<button class="primary-btn" id="enterRoom">Tu regalito 🍮</button><p class="tiny-note">Hecho especialmente para Kat ✿</p>
+</div></section>
+<section id="roomScreen" class="screen room-screen hidden">
+<header class="room-header"><div><span class="eyebrow">un rinconcito preparado para ti</span><h2>Explora a tu ritmo, mi cielito 💛</h2></div><div class="room-note"><span>Tu regalito está esperando</span><span class="note-sparkle">✧</span></div></header>
+
+<div class="room-wrap"><img class="room-image" src="assets/room.png" alt="Habitación isométrica de Pompompurin con cama, estantes, mesa y puerta">
+<button class="hotspot desk" data-section="letter" aria-label="Escritorio: cartita">✉</button><button class="hotspot shelf" data-section="album" aria-label="Estantería: álbum">♡</button><button class="hotspot table" data-section="music" aria-label="Mesa: música">♫</button><button class="hotspot console" data-section="quiz" aria-label="Sillón: juego de preguntas">✦</button><button class="hotspot hidden-heart" data-section="long-letter" aria-label="Secreto: carta larga especial">♥</button><button class="hotspot door" data-section="gift" aria-label="Puerta del regalo final"><span class="door-icon">🔒</span></button>
+</div><div class="room-footer"><button class="secondary-btn" id="backWelcome">Volver a la bienvenida</button></div>
+</section></main>
+<div id="sectionScreen" class="section-screen hidden" role="dialog" aria-modal="true" aria-labelledby="sectionTitle"><div class="section-topbar"><button id="sectionBack" class="back-btn">← Habitación</button><span class="section-brand">un detalle para mi cielito <span>♡</span></span></div><article class="section-page" id="sectionPage"><div class="section-decoration">✦　♡　✿</div><h2 id="sectionTitle">Una sorpresita para ti</h2><div id="sectionContent"></div></article></div>
+<script src="script.js"></script></body></html>
